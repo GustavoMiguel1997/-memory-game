@@ -1,6 +1,11 @@
-# memory-game
-jogos da memoria feito com react
+<h1 align="center">Jogo da memoria feito com react</h1>
 
-# execução
-npm i
-npm run dev
+## Instação
+ `npm i`
+ 
+## Execução
+ `npm start`
+ 
+ 
+## Build
+  `npm run build`
