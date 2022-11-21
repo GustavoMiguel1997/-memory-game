@@ -1,0 +1,28 @@
+.modal {
+  background-color: #00000063;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+
+.modal__content {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 120px;
+  width: 400px;
+}
+
+.modal__button {
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

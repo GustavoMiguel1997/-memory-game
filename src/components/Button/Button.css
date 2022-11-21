@@ -1,0 +1,15 @@
+.button {
+  background-color: #dfe5ea;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.button.-yellow {
+  background-color: #fca316;
+  color: #fff;
+}
+
+.button.-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

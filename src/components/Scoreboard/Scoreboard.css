@@ -1,0 +1,17 @@
+.scoreboard {
+  background-color: #dfe5ea;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 25px;
+  width: 200px;
+}
+
+.scoreboard.-selected {
+  background-color: #fca316;
+}
+
+.scoreboard__score {
+  font-weight: bold;
+}
