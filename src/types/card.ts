@@ -3,6 +3,6 @@ import { IconType } from '../assets/icons';
 export type TCard = {
   name: string;
   Icon: IconType;
-  color: string;
+  color?: string;
   status?: '' | 'selected' | 'checked';
 };

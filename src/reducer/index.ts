@@ -27,7 +27,7 @@ const initialPlayer = {
 function loadInitialCards(cardsQuantity: number) {
   const iconsQuantity = cardsQuantity / 2;
   const cardsWithIcons = icons.slice(0, iconsQuantity);
-  const newCards = [...cardsWithIcons, ...cardsWithIcons];
+  const newCards: TCard[] = [...cardsWithIcons, ...cardsWithIcons];
   return shuffleCards(newCards);
 }
 
