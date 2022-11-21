@@ -4,7 +4,7 @@ import './Card.css';
 type TProps = {
   Icon: IconType;
   index: number;
-  color: string;
+  color?: string;
   status?: '' | 'selected' | 'checked';
   onClick: (cardId: number) => void;
 };

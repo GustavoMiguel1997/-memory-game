@@ -4,7 +4,7 @@ type TProps = {
   id: number;
   score: number;
   isSelected?: boolean;
-  selectedColor: string;
+  selectedColor?: string;
 };
 
 function Scoreboard({ id, score, selectedColor, isSelected }: TProps) {
