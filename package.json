@@ -1,8 +1,10 @@
 {
   "name": "vite_app",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "start": "node server.js",
