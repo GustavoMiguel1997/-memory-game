@@ -1,6 +1,6 @@
-import { TCards } from '../types/card';
+import { TCard } from '../types/card';
 
-function shuffleCards(cardsToShuffle: TCards[]) {
+function shuffleCards(cardsToShuffle: TCard[]) {
   return cardsToShuffle
     .map((value) => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
